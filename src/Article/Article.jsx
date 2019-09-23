@@ -16,7 +16,7 @@ const Article = () => {
       <section>
       <h1>The Statue of Liberty's torch heads to new museum</h1>
       <p>
-        <i>by Kate Farley (<a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">kate.farley@nytimes.com</a>)</i> <br/>
+        <i>by Kate Farley (<a href="mailto:kate.farley@nytimes.com?Subject=Hello%20again" target="_top">kate.farley@nytimes.com</a>)</i> <br/>
         <time dateTime="2018-11-22">November 22, 2018</time>  
       </p>
 
