@@ -1,0 +1,17 @@
+html {
+    font-size: 15px;
+}
+h2 {
+    color: FireBrick;
+    font-size: 30px;
+    margin: 0;
+}
+section {
+    background:Gainsboro;
+    padding: 1rem;
+    border: 1px solid FireBrick;
+}
+
+time {
+    font-weight: bold;
+}

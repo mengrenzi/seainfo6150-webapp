@@ -1,0 +1,11 @@
+ul {
+    background: DarkGray;
+    border: 2px dashed DIMGRAY;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+li {
+    list-style-type: none;
+    padding: 1rem;
+}
