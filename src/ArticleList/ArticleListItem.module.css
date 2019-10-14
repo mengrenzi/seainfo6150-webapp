@@ -1,17 +1,23 @@
 html {
     font-size: 15px;
 }
+
 h2 {
     color: FireBrick;
     font-size: 30px;
     margin: 0;
 }
+
 section {
-    background:Gainsboro;
-    padding: 1rem;
+    background-image: linear-gradient(to right, rgba(214, 24, 62, 0.801), rgba(255, 255, 255, 0.836) 15%);
     border: 1px solid FireBrick;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 10rem;
+    writing-mode: horizontal-tb;
 }
 
 time {
     font-weight: bold;
 }
+

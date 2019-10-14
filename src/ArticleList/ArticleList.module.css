@@ -3,6 +3,7 @@ ul {
     border: 2px dashed DIMGRAY;
     margin: 1rem;
     padding: 1rem;
+    border-radius: 10px;
 }
 
 li {

@@ -1,5 +1,9 @@
 button {
-    background: FireBrick;
+    background: rgb(219, 4, 4);
     color: white;
+    position: relative;
     float: right;
+    border-radius: 10px;
+    padding: 5px 30px;
+    overflow: hidden;
 }
