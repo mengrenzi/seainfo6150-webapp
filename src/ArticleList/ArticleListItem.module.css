@@ -2,10 +2,27 @@ html {
     font-size: 15px;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    min-height: 100%;
+    font-size: 10px;
+}
+
 h2 {
     color: FireBrick;
     font-size: 30px;
     margin: 0;
+}
+
+button {
+    background: CRIMSON;
+    color: white;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    width: 100%;
 }
 
 section {
@@ -16,8 +33,3 @@ section {
     padding-left: 10rem;
     writing-mode: horizontal-tb;
 }
-
-time {
-    font-weight: bold;
-}
-
