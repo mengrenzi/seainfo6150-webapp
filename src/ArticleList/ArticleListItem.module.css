@@ -16,14 +16,6 @@ h2 {
     margin: 0;
 }
 
-button {
-    background: CRIMSON;
-    color: white;
-    border-radius: 5px;
-    padding-top: 4px;
-    padding-bottom: 6px;
-    width: 100%;
-}
 
 section {
     background-image: linear-gradient(to right, rgba(214, 24, 62, 0.801), rgba(255, 255, 255, 0.836) 15%);
