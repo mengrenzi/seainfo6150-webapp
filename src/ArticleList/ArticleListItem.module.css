@@ -1,27 +1,25 @@
-html {
-    font-size: 15px;
-}
-
 .container{
     display: flex;
     justify-content: space-between;
     flex-flow: wrap;
     min-height: 100%;
-    font-size: 10px;
-}
-
-h2 {
-    color: FireBrick;
-    font-size: 30px;
-    margin: 0;
 }
 
 
-section {
-    background-image: linear-gradient(to right, rgba(214, 24, 62, 0.801), rgba(255, 255, 255, 0.836) 15%);
-    border: 1px solid FireBrick;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
-    padding-left: 10rem;
-    writing-mode: horizontal-tb;
+@media (min-width: 500px) {
+    .container{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 750px) {
+    .container{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container{
+        font-size: 18px;
+    }
 }
