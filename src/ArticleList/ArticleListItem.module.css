@@ -6,8 +6,9 @@
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     .container{
+        display: block;
         font-size: 10px;
     }
 }
@@ -15,11 +16,19 @@
 @media (min-width: 750px) {
     .container{
         font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column nowrap;
+        min-height: 100%;    
     }
 }
 
 @media (min-width: 1000px) {
     .container{
         font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column nowrap;
+        min-height: 100%;    
     }
 }

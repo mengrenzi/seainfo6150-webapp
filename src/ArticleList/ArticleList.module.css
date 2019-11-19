@@ -4,7 +4,6 @@ ul {
     margin: 1rem;
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     border-radius: 10px;
 }
 
@@ -27,7 +26,12 @@ li {
     box-shadow: 1px 6px 4px 1px DIMGRAY;   
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
     h2 {
         font-size: 18px;
     }
@@ -39,6 +43,11 @@ li {
 }
 
 @media (min-width: 750px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     h2 {
         font-size: 20px;
     }
@@ -50,6 +59,11 @@ li {
 }
 
 @media (min-width: 1000px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     h2 {
         font-size: 25px;
     }

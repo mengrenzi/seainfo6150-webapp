@@ -6,7 +6,7 @@ img {
     max-height: 70%;
   }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     img {
       width: 60px;
       height: 30px;
